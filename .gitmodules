@@ -1,0 +1,4 @@
+[submodule "cs50"]
+	path = cs50
+	url = git@github.com:momeyer/cs50.git
+	branch = master
