@@ -18,15 +18,6 @@ darkmode: true
 github_username:  momeyer
 linkedin_username: monique-meyer-443384162
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
@@ -35,7 +26,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
