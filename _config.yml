@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Monique Meyer
-title: Junior Developer
+title: Junior Software Engineer
 email: meyer.monique93@gmail.com
 website: https://github.com/momeyer
 
@@ -34,7 +34,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Minishell - In Progress
+        title: 🐚 Minishell - In Progress 
         link: https://github.com/codamMeyer/minishell
         # link_text: Project Website
         additional_links:
