@@ -34,13 +34,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Projects 
+        title: Codam Projects
         link: github.com/codamMeyer
         # link_text: Project Website
         additional_links:
-          - title:  ---
+          - title:  Minishell - In progress
             icon: fab fa-github
-            url: ---
+            url: https://github.com/codamMeyer/minishell
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
