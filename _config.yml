@@ -30,17 +30,17 @@ linkedin_username: monique-meyer-443384162
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Monique Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus justo id elit vehicula, nec elementum leo sollicitudin. Donec vel pharetra urna. Etiam lacinia lobortis neque, nec pellentesque mauris semper quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse vitae iaculis quam. Phasellus ultrices, metus in lobortis pretium, libero ex volutpat tellus, scelerisque cursus quam nisi at ante. Pellentesque vitae lobortis enim. Fusce efficitur turpis eu odio consequat, eu sagittis arcu varius. Integer purus lacus, semper in libero ac, pretium fermentum massa. Aenean sed lorem tempor, volutpat nunc nec, faucibus nisl.
 content:
-  - title: Projects # Title for the section
+  - title: Codam Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Codam Projects
-        link: github.com/codamMeyer
+        title: Minishell - In Progress
+        link: https://github.com/codamMeyer/minishell
         # link_text: Project Website
         additional_links:
-          - title:  Minishell - In progress
-            icon: fab fa-github
-            url: https://github.com/codamMeyer/minishell
+          # - title:  Minishell - In progress
+          #   icon: fab fa-github
+          #   url: https://github.com/codamMeyer/minishell
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
