@@ -35,18 +35,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: C
-      - layout: left
-        title: Python
-      - layout: left
-        title: C
-      - layout: left
-        title: Python
-      - layout: left
-        title: C
-      - layout: left
-        title: Python
-        
+        title: Programming Languages 
+        description: | # this will include new lines to allow paragraphs
+          C, Python
   - title: Codam Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
