@@ -9,12 +9,11 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body id=about style="font-family: Lora;">
+<body id=about style="font-family: monospace;">
     <div class="container">
         <div class=" col-md-12 px-4  mt-5">
             <img src="images/logoName.png" alt="LogoMoniqueMeyer" class="img-fluid">
         </div>
-
         <div class="row  mt-5">
             <div class="col-md-6 col-sm-12 px-4">
                 <img src="images/aboutMe.png" alt="aboutMe" class="img-fluid">
@@ -58,77 +57,142 @@
         <div class="col-md-6 px-4">
             <img src="images/mainProjects.png" alt="mainProjects" class="img-fluid">
         </div>
-        <div class="container">
-            <div class="card mb-3">
-                <img class="card-img-top" src="images/minishell.png" alt="Card image cap">
+        <!--  -->
+
+        <div class="card-deck col-md-12">
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>Minishell</h5>
+                </div>
+                <img class="card-img-top" src="images/minishell.png" Height="250" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Minishell</h5>
-                    <div class="ms-2 me-auto">
-                        <div>Description: Simplified shell interpreter with a subset of bash functionalities</div>
-                        <div>Technologies: C, Make, Bash, Git, CircleCI</div>
-                        <a href="https://github.com/codamMeyer/minishell">
-                            <button type="button"
-                                class="btn btn-secondary btn-lg btn-block">github.com/codamMeyer/minishell</button>
-                        </a>
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        Simplified shell interpreter with a subset of bash functionalities.
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div> C, Make, Bash, Git, CircleCI
                     </div>
                 </div>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/codamMeyer/minishell">
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">github.com/codamMeyer/minishell</button>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="card mb-3">
-            <img class="card-img-top" src="images/cub3d.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Cub3D</h5>
-                <div class="ms-2 me-auto">
-                    <div>Description: 3D game using ray casting</div>
-                    <div>Technologies: C, Make, Git</div>
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>Cub3D</h5>
+                </div>
+                <img class="card-img-top" src="images/cub3d.png" Height="250" alt="Card image cap">
+                <div class="card-body" Height="300">
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        3D game using ray casting
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div>C, Make, Git
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
                     <a href="https://github.com/codamMeyer/cub3d">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">
-                            github.com/codamMeyer/cub3d</button>
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">https://github.com/codamMeyer/cub3d</button>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="card mb-3">
-            <img class="card-img-top" src="images/puzzleGame.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Puzzle Game - Can you help Tonny?</h5>
-                <div class="ms-2 me-auto">
-                    <div>Description: Puzzle game inspired on RoboZZle</div>
-                    <div>Technologies: Tiled Map editor, Lua Language, LÖVE2D</div>
+        <div class="card-deck col-md-12">
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>Printf</h5>
+                </div>
+                <img class="card-img-top" src="images/printf.png" Height="250" alt="Card image cap">
+                <div class="card-body" Height="300">
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        Printf function with i, d, x, c, s, p conversions. Width and Precision also suported.
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div>C, Make
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/codamMeyer/printf">
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">github.com/codamMeyer/printf</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>Puzzle Game - Can you help Tonny?</h5>
+                </div>
+                <img class="card-img-top" src="images/puzzleGame.png" Height="250" alt="Card image cap">
+                <div class="card-body">
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        Puzzle game inspired on RoboZZle
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div> Tiled Map editor, Lua Language, LÖVE2D
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
                     <a href="https://github.com/momeyer/puzzleGame">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">
-                            github.com/momeyer/puzzleGame</button>
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">github.com/momeyer/puzzleGame</button>
                     </a>
                 </div>
             </div>
+
         </div>
-        <div class="card mb-3">
-            <img class="card-img-top" src="images/realState.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Realstate4U</h5>
-                <div class="ms-2 me-auto">
-                    <div>Description: Website for real state search</div>
-                    <div>Technologies: Python, Django, SQL, JavaScript, React, Redux, HTML</div>
-                    <a href="https://github.com/momeyer/realstate4u">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">
-                            github.com/momeyer/realstate4u</button>
+        <div class="card-deck col-md-12">
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>realState4U</h5>
+                </div>
+                <img class="card-img-top" src="images/realState.png" Height="250" alt="Card image cap">
+                <div class="card-body" Height="300">
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        Website for real state search
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div>Python, Django, SQL, JavaScript, React,
+                        Redux, HTML
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/momeyer/realState4U">
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">github.com/momeyer/realState4U</button>
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="card mb-3">
-            <img class="card-img-top" src="images/flack.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Flack</h5>
-                <div class="ms-2 me-auto">
-                    <div>Description: Online messaging application</div>
-                    <div>Technologies: JavaScript, Python, Flask, HTML</div><a
-                        href="https://github.com/momeyer/flackchat">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">
-                            github.com/momeyer/flackchat</button>
+            <div class="card my-3">
+                <div class="card-header bg-transparent">
+                    <h5>Flack Chat</h5>
+                </div>
+                <img class="card-img-top" src="images/flack.png" Height="250" alt="Card image cap">
+                <div class="card-body" Height="300">
+                    <div>
+                        <div style="font-weight: bold;">Description:</div>
+                        Online messaging application
+                    </div>
+                    <div>
+                        <div style="font-weight: bold;">Technologies:</div>JavaScript, Python, Flask, HTML
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/momeyer/flackchat">
+                        <button type="button"
+                            class="btn btn-secondary btn-sm btn-block">github.com/momeyer/flackchat</button>
                     </a>
                 </div>
             </div>
+
         </div>
     </div>
     </div>
